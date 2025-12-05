@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDR Plus — Product</title>
+  <link rel="stylesheet" href="PDR.css" />
+</head>
+<body>
+  <div class="site">
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">PDR <span class="plus">plus</span></div>
+        <div class="subtitle">PH Balance Formulation — Dish Wash & Cleaners</div>
+      </div>
+      <nav class="top-actions">
+        <a href="#contact" class="btn primary">Contact / Order</a>
+      </nav>
+    </header>
+
+    <!-- ===== Owner Name Section ===== -->
+    <div class="owner-box">
+      Owner : <span class="owner-name">Anuj Varshney</span>
+    </div>
+
+    <!-- ===== Main Hero Section ===== -->
+    <main class="hero">
+      <!-- Left/Product Details -->
+      <section class="left">
+        <div class="card product-card">
+          <div class="product-head">
+            <div>
+              <h1 class="product-name">PDR plus — Dish Wash Gel</h1>
+              <div class="meta">
+                Net Wt.: <strong>500ml</strong> · Batch: <strong>Lot 1/10/2025</strong> · Mfg: <strong>10/2025</strong>
+              </div>
+            </div>
+            <div class="price-box">
+              <div class="price">₹65</div>
+              <div class="small">Best before 36 months</div>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <p><strong>Special features:</strong></p>
+            <ul>
+              <li>Powerful grease removal</li>
+              <li>PH balanced — gentle on hands</li>
+              <li>Lemon fragrance</li>
+              <li>Made in Bharat</li>
+            </ul>
+
+            <div class="info-grid">
+              <div class="info">Manufacturer: PDR ENTERPRISES DIST, HATHRAS</div>
+              <div class="info">Contact: 8445549913, 9105324608</div>
+            </div>
+
+            <div class="actions">
+              <a class="btn primary" href="#contact">Order Now</a>
+              <a class="btn ghost" href="#more">Learn more →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card secondary">
+          <h3>Other Product</h3>
+          <p>Disinfectant Floor Cleaner — 1 Litre · MRP ₹99</p>
+          <p>Recommended for kitchen, bathroom, dining table and toilets.</p>
+        </div>
+      </section>
+
+      <!-- Right/Images + Contact -->
+      <aside class="right">
+        <div class="image-stack">
+          <img src="pdr2.jpeg" alt="PDR product front" class="product-image" />
+          <img src="pdr1.jpeg" alt="Promoters" class="product-image small" />
+        </div>
+
+        <div class="card contact-card" id="contact">
+          <h3>Contact / Order</h3>
+          <form id="contactForm" class="contact-form" onsubmit="return false;">
+            <input name="name" placeholder="Your name" class="input" />
+            <input name="phone" placeholder="Phone / Email" class="input" />
+            <textarea name="message" placeholder="Message / Order details" class="input textarea"></textarea>
+            <button class="btn primary" onclick="alert('Form will connect to backend later')">Send</button>
+          </form>
+          <p class="small muted">Phone: 8445549913 · 9105324608</p>
+        </div>
+      </aside>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div>© PDR Enterprises — Made in Bharat</div>
+      <div class="owner-footer">Business Owner : <strong>Anuj Varshney</strong></div>
+    </footer>
+  </div>
+  <script src="PDRplus.js"></script>
+</body>
+</html>
